@@ -35,18 +35,19 @@ CREATE TABLE Funcionario (
   cargo VARCHAR(90) NOT NULL,
   PRIMARY KEY(idFuncionario)
 );
-
+ 
 CREATE TABLE MateriaPrima (
   idmateria INTEGER(9)  NOT NULL AUTO_INCREMENT,
-  nomeMate VARCHAR(40) NULL,
-  quantMate INTEGER(30)  NULL,
+  nomeMate VARCHAR(40) Not NULL,
+  quantMate INTEGER(30)  ,
    dataMater Date not null, 
    valiMater date Not null, 
    PRIMARY KEY(idmateria ),
-  idForn INTEGER   not null, 
+  idForn INTEGER  not null, 
 FOREIGN KEY (idForn) references fornecedores (idForn) 
 );
-
+  
+ select * from produtos;
 CREATE TABLE Produtos (
   idProdutos INTEGER(5) NOT NULL AUTO_INCREMENT,
  primary key (idProdutos),
@@ -56,11 +57,11 @@ CREATE TABLE Produtos (
   pesoProd DECIMAL(20) NOT NULL,
   horarioProd VARCHAR(20) NOT NULL,
   datadeProd DATE NOT NULL,
-  validadeProd DATE NOT NULL ,
+  validadeProd DATE NOT NULL 
   
-   idmateria integer not null, 
-   constraint foreign key (idmateria) references MateriaPrima (idmateria)
 );
+ 
+
 CREATE TABLE Pedido (
   idPed INTEGER(100)   NOT NULL AUTO_INCREMENT,
   dataPed DATE NOT NULL,
