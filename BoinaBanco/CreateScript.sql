@@ -28,6 +28,7 @@ CREATE TABLE fornecedores (
 CREATE TABLE Funcionario (
   idFuncionario INTEGER(4) UNSIGNED NOT NULL AUTO_INCREMENT,
   nomeFunci VARCHAR(150) NOT NULL,
+  senhaFunci varchar (50) not null;
   emailFunci VARCHAR(150) NOT NULL,
   cpfFunci VARCHAR(25) NOT NULL,
   telefoneFunci VARCHAR(20) NOT NULL,
