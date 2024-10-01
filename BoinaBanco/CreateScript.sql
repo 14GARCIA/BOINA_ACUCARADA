@@ -2,7 +2,8 @@
  use Pidatabase;
  
  CREATE TABLE Clientes (
-  idClien INTEGER(5) UNSIGNED NOT NULL AUTO_INCREMENT,
+  idClien INTEGER(5) UNSIGND NOT NULL AUTO_INCREMENT,
+  senhaClien Varchar (50) not null ; 
   nomeClien VARCHAR(150) NOT NULL,
   cpfClien VARCHAR(20) NOT NULL,
   emailClien VARCHAR(150) NOT NULL,
