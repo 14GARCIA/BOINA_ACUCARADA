@@ -8,7 +8,7 @@
   cpfClien VARCHAR(20) NOT NULL,
   emailClien VARCHAR(150) NOT NULL,
   cepClien VARCHAR(10) NOT NULL,
-  lograClien VARCHAR(50) NOT NULL,
+  lograClien VARCHAR(100) NOT NULL,
   cidadeClien VARCHAR(30) NOT NULL,
   bairroClien VARCHAR(30) NOT NULL,
   ufClien VARCHAR(3) NOT NULL,
