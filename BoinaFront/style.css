@@ -3,6 +3,7 @@
 
      
 } 
+
 header { 
  background-color: hotpink;
 }  
@@ -11,6 +12,9 @@ header {
 
 
 body{ 
-      
-      background-color: #b1baf5;
+
+      background-color: rgb(177,186,245);
+}
+nav{ 
+      background-color: aliceblue;
 }
