@@ -1,6 +1,25 @@
- footer { 
-      background-color: antiquewhite;
+ /* divisorias*/ 
 
+ blocos{ 
+
+      display: flex;
+
+
+
+
+ }
+ 
+ 
+ 
+ footer { 
+       display: flexbox;
+      bottom: 0;
+      background-color: antiquewhite;
+ text-align: center;
+ display: block;
+     position-anchor: 1;
+
+      
      
 } 
 
@@ -15,6 +34,8 @@ body{
 
       background-color: rgb(177,186,245);
 }
-nav{ 
+nav{  
+
+      position-anchor:  top;
       background-color: aliceblue;
 }
