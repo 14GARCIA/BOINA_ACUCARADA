@@ -1,0 +1,41 @@
+ /* divisorias*/ 
+
+ blocos{ 
+
+      display: flex;
+
+
+
+
+ }
+ 
+ 
+ 
+ footer { 
+       display: flexbox;
+      bottom: 0;
+      background-color: antiquewhite;
+ text-align: center;
+ display: block;
+     position-anchor: 1;
+
+      
+     
+} 
+
+header { 
+ background-color: hotpink;
+}  
+
+
+
+
+body{ 
+
+      background-color: rgb(177,186,245);
+}
+nav{  
+
+      position-anchor:  top;
+      background-color: aliceblue;
+}
