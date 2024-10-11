@@ -1,6 +1,14 @@
  /* divisorias*/ 
 
- blocos{ 
+
+
+ .Logo{ 
+
+height: 30px;
+width: 30px;
+
+ }
+ .blocos{ 
 
       display: flex;
 
