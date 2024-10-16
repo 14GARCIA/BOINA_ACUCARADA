@@ -4,9 +4,9 @@ h1 {
 .vermelho {
   color: red;
 }
-/*
+
 body {
-  background-color: rgb(177, 186, 245);
+  background-color: blue;
 }
 
 Footer {
@@ -22,19 +22,17 @@ Footer {
   flex-direction: row;
 }
 
-.Logo {
-  height: 30px;
-  width: 30px;
-}
-
 nav {
   position-anchor: top;
   background-color: aliceblue;
 }
 
-@media (min-width: 700) {
+@media (max-width: 460px) {
   body {
-    background-color: blue;
+    background-color: red;
+  }
+  .Logo {
+    height: 30px;
+    width: 30px;
   }
 }
-*/
