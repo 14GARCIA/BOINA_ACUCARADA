@@ -1,6 +1,30 @@
  /* divisorias*/ 
 
+ 
+ @media (min-width : 481) and (max-width: 1000){ 
+   .navhome{ 
 
+      display: flex; 
+      flex-direction: row-reverse;
+   }
+
+
+
+ }
+ 
+
+ @media  (max-width: 480px) and (min-width:200px) {
+      
+      .navhome{ 
+
+            display: flex;
+            flex-direction: row;
+            
+            
+             }
+       
+
+    }
 
  .Logo{ 
 

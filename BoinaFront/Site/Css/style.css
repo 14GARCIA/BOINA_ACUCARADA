@@ -1,6 +1,27 @@
  /* divisorias*/ 
 
- blocos{ 
+ 
+
+ @media screen and (max-width: 480px) {
+      
+      .navhome{ 
+
+            display: flex;
+            flex-direction: row;
+            
+            
+             }
+       
+
+    }
+
+ .Logo{ 
+
+height: 30px;
+width: 30px;
+
+ }
+ .blocos{ 
 
       display: flex;
 
