@@ -1,0 +1,105 @@
+
+body{ 
+     background-color:  rgb(242, 164, 233);
+    }
+ .forms form { 
+    margin: 25px;
+   label{
+    font-size: 25px;
+    margin-left: 600px;
+   }
+   
+    }
+
+    .separando{
+        margin: 15px;
+        text-align: center;
+
+        input { 
+            height: 45px;
+            width: 300px;
+            border-radius:  10px; 
+            border-color: transparent; 
+            margin: 5px; 
+        
+        } 
+    }
+
+    .topo{
+        display: inline;
+     
+}
+    
+
+    .topo2 {
+        margin-top: 0px;
+        padding: 10px 20px;
+        height: auto;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    .canto1 {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center; 
+        align-items: center;
+    }
+    
+    .canto1 a {
+        color: #ffff;
+        text-decoration: none;
+        margin: 0 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        transition: color 0.5s ease;
+    }
+    
+    .canto1 a:hover {
+        color: #ff6fd2;
+    }
+    
+    .pesquisa {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 25px ;
+        
+    }
+    
+    .pesquisa form {
+        display: flex;
+    }
+    
+    .pesquisa input[type="search"] {
+        margin: 5px;
+        padding: 12px;
+        font-size: 13px;
+        border: 1px solid #ccc;
+      border-radius: 15px;
+        outline: none;
+        margin-right: 10px;
+    }
+    
+    .pesquisa button {
+        padding: 8px 15px;
+        font-size: 12px;
+        background-color: #ff6fd2;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .pesquisa button:hover {
+        background-color: #f2a4e9;
+    }
+    .fundo{
+        background-image: url("https://tse2.mm.bing.net/th?id=OIP.7cndrX9-O4vpbBM0MCKuzgHaE8&pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+       
+    }
+    
