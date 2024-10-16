@@ -1,73 +1,40 @@
- /* divisorias*/ 
-
- 
- @media (min-width : 481) and (max-width: 1000){ 
-   .navhome{ 
-
-      display: flex; 
-      flex-direction: row-reverse;
-   }
-
-
-
- }
- 
-
- @media  (max-width: 480px) and (min-width:200px) {
-      
-      .navhome{ 
-
-            display: flex;
-            flex-direction: row;
-            
-            
-             }
-       
-
-    }
-
- .Logo{ 
-
-height: 30px;
-width: 30px;
-
- }
- .blocos{ 
-
-      display: flex;
-
-
-
-
- }
- 
- 
- 
- footer { 
-       display: flexbox;
-      bottom: 0;
-      background-color: antiquewhite;
- text-align: center;
- display: block;
-     position-anchor: 1;
-
-      
-     
-} 
-
-header { 
- background-color: hotpink;
-}  
-
-
-
-
-body{ 
-
-      background-color: rgb(177,186,245);
+h1 {
+  text-align: center;
 }
-nav{  
-
-      position-anchor:  top;
-      background-color: aliceblue;
+.vermelho {
+  color: red;
 }
+/*
+body {
+  background-color: rgb(177, 186, 245);
+}
+
+Footer {
+  display: flex;
+  bottom: 0;
+  background-color: antiquewhite;
+  text-align: center;
+  display: block;
+}
+
+.navhome {
+  display: flex;
+  flex-direction: row;
+}
+
+.Logo {
+  height: 30px;
+  width: 30px;
+}
+
+nav {
+  position-anchor: top;
+  background-color: aliceblue;
+}
+
+@media (min-width: 700) {
+  body {
+    background-color: blue;
+  }
+}
+*/
