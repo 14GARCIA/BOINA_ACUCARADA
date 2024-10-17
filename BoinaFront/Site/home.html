@@ -13,13 +13,27 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navHome">
-      <a
-        href="https://cdn.pixabay.com/photo/2016/09/19/21/50/sun-flower-1681385_640.jpg"
-      >
-        <img class="Logo" src="assets/Logo.png" alt="minha Figura" />
-      </a> 
-    </nav>
+    <div class="topo">
+      <div class="topo2">
+        <div class="canto1">
+          <a href="">Produtos</a>
+          <a href="">Quem somos</a>
+          <a href="form/formCadastro.php">Cadastro</a>
+          <a href="form/login.php"> Login </a>
+        </div>
+        <div class="pesquisa">
+          <form action="pesquisa" method="GET">
+            <input
+              type="pesq"
+              placeholder="Pesquisar..."
+              name="pesquisa "
+              required
+            />
+            <button type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <footer><address href="quem somos">Boininha Co.</address></footer>
     <script
