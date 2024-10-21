@@ -22,14 +22,20 @@ Footer {
   display: block;
 }
 
-.navhome {
+.botaoTopo{ 
+    margin :7px;
+  background-color: pink;
+  color: black;
+
+
+
+}
+.topo {
   display: flex;
   flex-direction: row;
-}
-
-nav {
+ 
   position-anchor: top;
-  background-color: aliceblue;
+  background-color: palevioletred;
 }
 
 @media (max-width: 460px) {

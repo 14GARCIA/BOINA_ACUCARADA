@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registro", "Registro\Registro.csproj", "{80B6A7C4-9919-4D6E-A11C-7B09BC0E5951}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro", "Cadastro\Cadastro.csproj", "{5D9D174C-457C-4ADD-BEFF-D7DA6F749419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{2D3A532A-1C3A-4C76-9C67-2357E5E220E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{80B6A7C4-9919-4D6E-A11C-7B09BC0E5951}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80B6A7C4-9919-4D6E-A11C-7B09BC0E5951}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80B6A7C4-9919-4D6E-A11C-7B09BC0E5951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9D174C-457C-4ADD-BEFF-D7DA6F749419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9D174C-457C-4ADD-BEFF-D7DA6F749419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9D174C-457C-4ADD-BEFF-D7DA6F749419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9D174C-457C-4ADD-BEFF-D7DA6F749419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3A532A-1C3A-4C76-9C67-2357E5E220E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3A532A-1C3A-4C76-9C67-2357E5E220E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3A532A-1C3A-4C76-9C67-2357E5E220E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3A532A-1C3A-4C76-9C67-2357E5E220E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
