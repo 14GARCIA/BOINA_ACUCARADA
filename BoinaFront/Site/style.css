@@ -11,7 +11,7 @@ h1 {
 }
 
 body {
-  background-color: blue;
+  background-color: whites;
 }
 
 Footer {
@@ -19,30 +19,30 @@ Footer {
   bottom: 0;
   background-color: antiquewhite;
   text-align: center;
-  display: block;
 }
 
- .logoTopo{ 
-
-width: 300px;
-height: 100px;
- }
-.botaoTopo{ 
-    margin :7px;
+.logoTopo {
+  display: flex;
+}
+.botaoTopo {
+  margin: 7px;
   background-color: pink;
   color: black;
-
-
-
 }
-.topo {
+.cabecalho {
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
- 
-  position-anchor: top;
-  background-color: palevioletred;
+  align-items: center;
+  background-color: #f9eaea;
 }
 
+.barra-de-navegacao {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+}
 @media (max-width: 460px) {
   body {
     background-color: red;
