@@ -8,25 +8,3 @@
 </head>
 <body>
 <body>
-
-        <div class="topo">
-
-            <div class="topo2">
-                 <div class="canto1">
-                    <a href="">Produtos</a>
-                    <a href="">Quem somos</a>
-                    <a href="">Contato</a>
-                    <a href="">Redes Sociais</a>
-                    </div>
-                    <div class="pesquisa">
-                            <form action="pesquisa" method="GET">         
-                            <input type="pesq" placeholder="Pesquisar..." name="pesquisa " required>
-                            <button type="submit">Buscar</button>
-                            </form>
-                    </div>
-        </div>
-    
-            
-        
-    </div>
-    

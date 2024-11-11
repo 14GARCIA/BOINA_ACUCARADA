@@ -4,6 +4,6 @@
 
 
 
- <footer>  <adress>  Boina CO. </adress> < /footer >
+ <footer><address>Boina CO</address></footer>
 </body>
 </html>

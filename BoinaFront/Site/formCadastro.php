@@ -2,65 +2,73 @@
 include_once "header.php";
 ?>
 
-
- <h2>Cadastro.</h2>
-
-
-<div class="forms">
-<form action="cadastrar.php" method="post">
-<label>Digite seu nome:</label><br>
-    <div class="separando">
-      <input type="text" name="txt_nome" required maxlength="150">
+  <div class="container">
+    <div class="form-img">
+      <img src="assets/Logo.png" alt="">
     </div>
+    <div class="form">
+      <form action="#">
+        <div class="form-header">
+          <div class="title">
+            <h1>Cadastre-se</h1>
+          </div>
+          <div class="login-button">
+            <button type="button">Entrar</button>
+          </div>
+        </div>
 
-    <label>Digite seu CPF:</label><br>
-    <div class="separando">
-      <input type="text" name="txt_cpf" required maxlength="20">
+        <div class="input-group">
+
+          <div class="input-box">
+            <label for="nome">Seu nome</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" required>
+          </div>
+          <div class="input-box">
+            <label for="email">Seu email</label>
+            <input type="text" name="email" placeholder="Digite seu email" required>
+          </div>
+          <div class="input-box">
+            <label for="cpf">Seu CPF</label>
+            <input type="text" name="cpf" placeholder="Digite seu CPF" required>
+          </div>
+          <div class="input-box">
+            <label for="senha">Sua senha</label>
+            <input type="password" name="senha" placeholder="Digite sua senha" required>
+          </div>
+          <div class="input-box">
+            <label for="confsenha">Confirme sua senha</label>
+            <input type="password" name="confsenha" placeholder="Digite sua senha novamente" required>
+          </div>
+          <div class="input-box">
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" placeholder="Digite sua cidade" required>
+          </div>
+          <div class="input-box">
+            <label for="bairro">Bairro</label>
+            <input type="text" name="bairro" placeholder="Digite seu bairro" required>
+          </div>
+          <div class="input-box">
+            <label for="rua">Rua</label>
+            <input type="text" name="rua" placeholder="Digite o nome da sua rua" required>
+          </div>
+          <div class="input-box">
+            <label for="uf">UF</label>
+            <input type="text" name="uf" placeholder="Digite seu UF" required>
+          </div>
+          <div class="input-box">
+            <label for="cep">CEP</label>
+            <input type="text" name="cep" placeholder="Digite seu CEP" required>
+          </div>
+          <div class="continue-button">
+            <button type="submit">Continuar</button>
+          </div>
+        </div>
+        
+      </form>
     </div>
+  </div>
 
-    <label>Digite seu email:</label><br>
-    <div class="separando">
-      <input type="email" name="txt_email" required maxlength="150">
-    </div>
 
-    <label>Registre uma senha:</label><br>
-    <div class="separando">
-      <input type="password" name="txt_senha" required maxlength="50">
-    </div>
-
-    <label>Informe sua data de nascimento:</label><br>
-    <div class="separando">
-      <input type="date" name="dt_data" required>
-    </div>
-
-    <label>Digite seu CEP:</label><br>
-    <div class="separando">
-      <input type="text" name="txt_cep" required maxlength="10">
-    </div>
-
-    <label>Digite o nome da sua rua:</label><br>
-    <div class="separando">
-      <input type="text" name="txt_logadouro" required maxlength="100">
-    </div>
-
-    <label>Digite o nome do seu bairro:</label><br>
-    <div class="separando">
-      <input type="text" name="txt_bairro" required maxlength="30">
-    </div>
-
-    <label>Digite o nome da sua cidade:</label><br>
-    <div class="separando">
-      <input type="text" name="txt_cidade" required maxlength="30">
-    </div>
-
-    <label>Digite seu UF:</label><br>
-    <div class="separando">
-      <input type="text" name="txt_uf" required maxlength="3">
-    </div>
-<input type="submit" value="Cadastrar"> <p>Já tem uma conta? <a href="login.php">Entrar</a></p>
-
-</form>
-</div>
 <?php
 include_once "footer.php";
 ?>
