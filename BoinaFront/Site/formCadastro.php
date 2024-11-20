@@ -7,13 +7,13 @@ include_once "header.php";
       <img src="assets/Logo.png" alt="">
     </div>
     <div class="form">
-      <form action="#">
+      <form action="home.php">
         <div class="form-header">
           <div class="title">
             <h1>Cadastre-se</h1>
           </div>
           <div class="login-button">
-            <button type="button">Entrar</button>
+            <button  type="button" onclick="window.location.href='login.php'">Entrar</button>
           </div>
         </div>
 

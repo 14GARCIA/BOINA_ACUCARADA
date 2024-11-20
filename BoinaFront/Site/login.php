@@ -1,24 +1,45 @@
 <?php
-include_once "header.php";
+include_once "headerLogin.php";
 ?>
 
+ <div class="container">
+    <div class="form-img">
+      <img src="assets/Logo.png" alt="">
+    </div>
+    <div class="form">
+      <form action="#">
+        <div class="form-header">
+          <div class="title">
+            <h1>Faça seu login</h1>
+          </div>
+          <div class="cadastro-button">
+            <button  type="button" onclick="window.location.href='formCadastro.php'">cadastrar</button>
+          </div>
+        </div>
 
-<div class="fundo">
-<h2>Faça o seu Login</h2>
+        <div class="input-group">
 
-<div class="forms">
+          <div class="input-box">
+            <label for="email">Seu email</label>
+            <input type="text" name="nome" placeholder="Digite seu email" required>
+          </div>
 
-<form action="loginVer.php" method = "post">
-    <label>Digite o email cadastrado:</label><br>
-   <div class="separando"> <input type="text" name="txt_email" required maxlength=150><br></div>
-    <label>Digite a senha:</label><br>
-   <div class="separando"> <input type="password" name="txt_senha" required maxlength=50><br></div>
-  <div class="separando">  <input type="submit" value="logar"> <p>Não tem uma conta? <a href="formCadastro.php">Criar</a></p></div>
-</form>
+          <div class="input-box">
+            <label for="senha">Sua senha</label>
+            <input type="password" name="senha" placeholder="Digite sua senha" required>
+          </div>
 
-</div>
+          <div class="continue-button">
+            <button type="submit">Continuar</button>
+          </div>
 
-</div>
+          </div>
+        
+        </form>
+      </div>
+    </div>
+        
+
 
 
 <?php
