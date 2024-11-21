@@ -7,7 +7,7 @@ include_once "headerLogin.php";
       <img src="assets/Logo.png" alt="">
     </div>
     <div class="form">
-      <form action="#">
+      <form action="home.php">
         <div class="form-header">
           <div class="title">
             <h1>Faça seu login</h1>
