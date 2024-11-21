@@ -1,46 +1,19 @@
- <?php
 
-class Log {
-    
-    public static $contador = 0;
-
-    public static function registrar($mensagem) {
-
-        self::$contador++;
-
-        file_put_contents('log.txt', "[" . date('Y-m-d H:i:s') . "] " . $mensagem . PHP_EOL, FILE_APPEND);
-        
-        echo "Log registrado: " . $mensagem . PHP_EOL;
-    }
-
-    public static function obterContador() {
-        return self::$contador;
-    }
-}
-
-
-Log::registrar('Sistema iniciado');
-Log::registrar('Usuário logado');
-Log::registrar('Erro ao acessar o banco de dados');
-
-
-echo "Total de logs registrados: " . Log::obterContador(); 
-
-?>
  <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-<link rel="stylesheet" href="css\login.css">
-<link rel="stylesheet" href="css/home.css">
+ 
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="home.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
+     
 
     <title> Menu Responsivo </title>
 </head>
 <body>
-    <header>
+<header>
         <nav class="nav-bar">
             <div class="logo"> 
                 <h1>Boininha Açucarada</h1>
@@ -76,5 +49,4 @@ echo "Total de logs registrados: " . Log::obterContador();
             </div>
     </header>
 
-    <script src="mobile_navbar.js"></script>
  

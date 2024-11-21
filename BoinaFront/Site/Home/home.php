@@ -1,5 +1,5 @@
 <?php
-include_once "header.php";
+include_once "Header.php";
 
 ?>
 
@@ -8,8 +8,8 @@ include_once "header.php";
     <div class="shape"></div>
     <div id="cta">
       <h1 class="title">
-      Boininha Açucarada: 
-      <span>Um pedacinho de felicidade </span> 
+      Doçura açucarada em cada
+      <span> mordida</span> 
       </h1>
       <p class="descricao">
       Oportunidade e muito trabalho são as razões do sucesso da Sodiê
@@ -45,8 +45,6 @@ include_once "header.php";
   </section>
 </main>
 
-
 <?php
 include_once "footer.php";
-
 ?>

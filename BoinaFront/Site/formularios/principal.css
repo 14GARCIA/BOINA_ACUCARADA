@@ -9,6 +9,10 @@
   --sexta-cor: rgb(102,36,15);
   --setima-cor: rgb(216,200,255);
   --oitava-cor: rgb(177,186,245);
+  --color-neutral-0: #0e0c0c;
+  --color-neutral-10: #171717;
+  --color-neutral-30: #a8a29e;
+  --color-neutral-40: #f5f5f5;
 }
 
 * {
@@ -18,7 +22,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
+
+.menu {
   width: 100%;
   height: 100vh;
   display: flex;
