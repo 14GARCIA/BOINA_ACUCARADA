@@ -29,9 +29,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--setima-cor);
+
 }
 
+body{
+  background-color: var(--setima-cor);
+}
 .container {
   width: 200vh;
   height: 80vh;

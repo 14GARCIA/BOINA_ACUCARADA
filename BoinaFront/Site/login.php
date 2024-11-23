@@ -1,7 +1,8 @@
 <?php
-include_once "header.php";
+include_once "header3.php";
 ?>
 
+<div class="menu">
 
  <div class="container">
     <div class="form-img">
@@ -40,7 +41,7 @@ include_once "header.php";
       </div>
     </div>
         
- 
+ </div>
 
 <?php
 include_once "footer.php";
