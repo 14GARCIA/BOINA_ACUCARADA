@@ -19,31 +19,28 @@
                 <h1>Boininha Açucarada</h1>
             </div>
             <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
-                </ul>                       
+            <ul>
+            <li class="nav-item"><a href="home.php" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="produtos.php" class="nav-link">Produtos</a></li>
+                    <li class="nav-item"><a href="sobrenos.php" class="nav-link">Sobre nós</a></li>
+                    <li class="nav-item"><a href="login.php" class="nav-link">Login</a></li>
+                </ul>                               
             </div>
 
-            <div class="login-button">
-                <button><a href="#"> Entrar </a></button>
-            </div>
+          
 
                 <div class="mobile-menu-icon">
-                    <button onclick="menushow()"><img class="icon" src="img/menu_white_36dp.svg"></button>
+                    <button><img class="icon" src="assets/menu_white_36dp.svg"></button>
                 </div>
             </nav>
             <div class="mobile-menu">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="produtos.php" class="nav-link">Produtos</a></li>
+                    <li class="nav-item"><a href="sobrenos.php" class="nav-link">Sobre nós</a></li>
+                    <li class="nav-item"><a href="login.php" class="nav-link">Login</a></li>
                 </ul>
                 
-            <div class="login-button">
-                <button><a href="#"> Entrar </a></button>
-            </div>
+            
                 
             </div>
             </div>
