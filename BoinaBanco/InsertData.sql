@@ -1,4 +1,4 @@
-insert into `produtos`(`idProdutos`,`nomeProd`,`valorProd`,`tipoProd`,`pesoProd`,`horarioProd`,`datadeProd`,`validadeProd`) Values 
+insert into `produtos`(`idProdutos`,`nomeProd`,`valorProd`,`tipoProd`,`pesoProd`,`horarioProd`,`datadeProd`,`validadeProd`,`idmateria`) Values 
 (1,'Fatia de Bolo de Chocolate',5.50,'Fatia','100g','12:30',20240928,20240931) ,
 (2,'Biscoito de Gengibre', 4.00,'Unidade','30g','12:30',20240928,20240931 ),
 (3,'Cookie Tradicional', 4.50, 'Unidade','50g','12:30',20240928,20240931),

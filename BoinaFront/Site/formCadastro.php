@@ -1,5 +1,37 @@
 <?php
 include_once "Header2.php";
+
+ 
+ 
+ 
+$path = 'DB/';
+
+$file = $path . 'conection.php';
+
+include($file);
+ 
+if(isset($_POST['submit'])){
+header('location:formCadastro.php');
+}
+ 
+
+$nome=$_POST['nome'];
+$email=$_POST['email']; 
+$cpf=$_POST ['cpf'];
+$cidade =$_POST ['cidade']; 
+$bairro =$_POST ['bairro'];
+$rua =$_POST['rua']; 
+$uf =$_POST['uf'];
+$cep =$_POST[ 'cep'];
+$senha =$_POST['senha'];
+$confsenha=$_POST['confsenha']; 
+$senhaOfc ; 
+if ($senha != $confsenha){ 
+  echo '<script>alert("Senhas diferentes. Digite novamente!")</script>';
+}
+ $sqlcommand = "INSERT INTO clientes (nomeClien,cpfClien,  emailClien, cepClien, lograClien, cidadeClien, bairroClien,ufClien,senhaClien ) VALUES  (   '$nome','$cpf','$email','$cep','$rua','$cidade','$bairro','$uf','$senhaOfc');"
+ 
+
 ?>
  
  <div class="menu">
@@ -8,7 +40,7 @@ include_once "Header2.php";
       <img src="assets/Logo.png" alt="">
     </div>
     <div class="form">
-      <form action="home.php">
+      <form action="home.php" method="POST">
         <div class="form-header">
           <div class="title">
             <h1>Cadastre-se</h1>
@@ -34,11 +66,11 @@ include_once "Header2.php";
           </div>
           <div class="input-box">
             <label for="senha">Sua senha</label>
-            <input type="password" name="senha" placeholder="Digite sua senha" required>
+            <input type="password" name="senha" placeholder="Digite sua senha" id = "password" required>
           </div>
           <div class="input-box">
             <label for="confsenha">Confirme sua senha</label>
-            <input type="password" name="confsenha" placeholder="Digite sua senha novamente" required>
+            <input type="password" name="confsenha" placeholder="Digite sua senha novamente" id = "confirm_password" required>
           </div>
           <div class="input-box">
             <label for="cidade">Cidade</label>
@@ -69,7 +101,22 @@ include_once "Header2.php";
     </div>
   </div>
  </div>
+ 
+<script>
 
+ var password = document.getElementById("password")
+  , confirm_password = document.getElementById("confirm_password");
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Senhas diferentes!");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword();
+confirm_password.onkeyup = validatePassword();</script>
 <?php
 include_once "footer.php";
 ?>

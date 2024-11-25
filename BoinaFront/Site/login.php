@@ -1,5 +1,22 @@
 <?php
 include_once "header3.php";
+session_start(['login']);
+
+
+$path = 'DB/';
+
+$file = $path . 'conection.php';
+
+include($file);
+ 
+if(isset($_POST['submit'])){
+  echo '<script>alert("Campos Vazios")</script>';
+header('login.php');
+
+}
+
+include_once 'testlogin.php'; 
+
 ?>
 
 <div class="menu">
@@ -9,7 +26,7 @@ include_once "header3.php";
       <img src="assets/Logo.png" alt="">
     </div>
     <div class="form">
-      <form action="home.php">
+      <form action="home.php" method="$_POST">
         <div class="form-header">
           <div class="title">
             <h1>Faça seu login</h1>
@@ -32,7 +49,7 @@ include_once "header3.php";
           </div>
 
           <div class="continue-button">
-            <button type="submit">Continuar</button>
+            <input type="submit" value="Entrar">
           </div>
 
           </div>

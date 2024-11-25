@@ -20,9 +20,9 @@
             </div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="formCadastro.php" class="nav-link">Cadastro</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
+                    <li class="nav-item"><a href="sobrenos.php" class="nav-link">Sobre nós</a></li>
                 </ul>                       
             </div>
 

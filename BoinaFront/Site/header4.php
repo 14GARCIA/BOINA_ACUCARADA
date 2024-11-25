@@ -20,9 +20,8 @@
             </div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="index.php" class="nav-link">Inicio</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
                 </ul>                       
             </div>
 
