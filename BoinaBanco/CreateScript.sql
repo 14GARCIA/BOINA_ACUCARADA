@@ -3,7 +3,7 @@
  
  CREATE TABLE Clientes (
   idClien INTEGER(5) UNSIGND NOT NULL AUTO_INCREMENT,
-  senhaClien Varchar (50) not null ; 
+  senhaClien Varchar (50) not null ,
   nomeClien VARCHAR(150) NOT NULL,
   cpfClien VARCHAR(20) NOT NULL,
   emailClien VARCHAR(150) NOT NULL,
@@ -28,7 +28,7 @@ CREATE TABLE fornecedores (
 CREATE TABLE Funcionario (
   idFuncionario INTEGER(4) UNSIGNED NOT NULL AUTO_INCREMENT,
   nomeFunci VARCHAR(150) NOT NULL,
-  senhaFunci varchar (50) not null;
+  senhaFunci varchar (50) not null,
   emailFunci VARCHAR(150) NOT NULL,
   cpfFunci VARCHAR(25) NOT NULL,
   telefoneFunci VARCHAR(20) NOT NULL,
