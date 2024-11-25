@@ -59,7 +59,9 @@ CREATE TABLE Produtos (
   pesoProd DECIMAL(20) NOT NULL,
   horarioProd VARCHAR(20) NOT NULL,
   datadeProd DATE NOT NULL,
-  validadeProd DATE NOT NULL 
+  validadeProd DATE NOT NULL, 
+  idmateria integer not null, 
+  foreign key (idMateria) references MateriaPrima (idmateria)  
   
 );
  
