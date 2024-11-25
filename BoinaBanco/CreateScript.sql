@@ -45,11 +45,11 @@ CREATE TABLE MateriaPrima (
    dataMater Date not null, 
    valiMater date Not null, 
    PRIMARY KEY(idmateria ),
-  idForn INTEGER  not null, 
+  idForn INTEGER   , 
 FOREIGN KEY (idForn) references fornecedores (idForn) 
 );
   
- select * from produtos;
+ 
 CREATE TABLE Produtos (
   idProdutos INTEGER(5) NOT NULL AUTO_INCREMENT,
  primary key (idProdutos),
@@ -70,6 +70,7 @@ CREATE TABLE Pedido (
   tipoPed VARCHAR(40) NOT NULL,
   pagoPed VARCHAR(40) NULL,
   primary key (idPed),
+ 
   /* Foreign Keys do pedido*/
    
   /* Dados do Produto em si*/ idProdutos integer not null,
