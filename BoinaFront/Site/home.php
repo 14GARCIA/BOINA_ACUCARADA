@@ -16,7 +16,7 @@ include_once "Header.php";
       </p>
 
       <div id="cta_buttons">
-        <a href="#" class="btn-default">
+        <a href="produtos.php" class="btn-default">
             ver produtos
         </a>
         <a href="tel:+555555555" id="phone-button">
