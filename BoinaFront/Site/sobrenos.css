@@ -25,6 +25,10 @@
     }
 }
 
+header img{
+    width: 36px;
+    height: 36px;
+}
  
  .menu{
     
@@ -45,7 +49,7 @@
 .sobre{
     text-align: center;
     width: 100%;
-    height: 200px;
+    height: auto;
    background-color: var(--quinta-cor);
 
 }
@@ -197,16 +201,3 @@ img{
         padding-inline: 2.5rem;
     }
 }
-/*  <h2>Valores</h2>
-        <div class="valores">
-        <h3>Acolhimento:</h3> 
-        <p>Valorizamos o cuidado com cada cliente, oferecendo um ambiente onde todos se sintam bem-vindos e apreciados.</p>
-    </div>
-    <div class="valores">
-        <h3>Quaçodade:</h3> 
-        <p> Comprometemo-nos a usar os melhores ingredientes para criar doces irresistíveis e manter altos padrões em tudo o que fazemos.</p>
-    </div>
-    <div class="valores">
-        <h3>Paixão:</h3> 
-        <p>Trabalhamos com amor e dedicação para transformar nosso gosto por doces em momentos especiais para nossos clientes.</p>
-    </div>*/

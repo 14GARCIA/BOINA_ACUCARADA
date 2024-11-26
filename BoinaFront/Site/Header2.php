@@ -11,37 +11,40 @@
      
 
     <title> Menu Responsivo </title>
-</head><body>
-    
+</head>
+<body>
 <header>
         <nav class="nav-bar">
             <div class="logo"> 
                 <h1>Boininha Açucarada</h1>
             </div>
             <div class="nav-list">
-            <ul>
-            <li class="nav-item"><a href="home.php" class="nav-link">Inicio</a></li>
+                <ul>
+                    <li class="nav-item"><a href="home.php" class="nav-link">Inicio</a></li>
                     <li class="nav-item"><a href="produtos.php" class="nav-link">Produtos</a></li>
                     <li class="nav-item"><a href="sobrenos.php" class="nav-link">Sobre nós</a></li>
                     <li class="nav-item"><a href="login.php" class="nav-link">Login</a></li>
-                </ul>                               
+                </ul>                       
             </div>
 
-          
+           
 
                 <div class="mobile-menu-icon">
-                    <button><img class="icon" src="assets/menu_white_36dp.svg"></button>
+                    <button onclick="menushow()"><img class="icon" src="assets/menu_white_36dp.svg"></button>
                 </div>
             </nav>
             <div class="mobile-menu">
                 <ul>
-                <li class="nav-item"><a href="produtos.php" class="nav-link">Produtos</a></li>
+                <li class="nav-item"><a href="home.php" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="produtos.php" class="nav-link">Produtos</a></li>
                     <li class="nav-item"><a href="sobrenos.php" class="nav-link">Sobre nós</a></li>
                     <li class="nav-item"><a href="login.php" class="nav-link">Login</a></li>
                 </ul>
                 
-            
+        
                 
             </div>
             </div>
     </header>
+
+    <script src="mobile_navbar.js"></script>
