@@ -20,7 +20,7 @@
             </div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="home.php" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="home.html" class="nav-link">Inicio</a></li>
                     <li class="nav-item"><a href="produtos.php" class="nav-link">Produtos</a></li>
                     <li class="nav-item"><a href="sobrenos.php" class="nav-link">Sobre nós</a></li>
                     <li class="nav-item"><a href="login.php" class="nav-link">Login</a></li>
@@ -35,7 +35,7 @@
             </nav>
             <div class="mobile-menu">
                 <ul>
-                <li class="nav-item"><a href="home.php" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="home.html" class="nav-link">Inicio</a></li>
                     <li class="nav-item"><a href="produtos.php" class="nav-link">Produtos</a></li>
                     <li class="nav-item"><a href="sobrenos.php" class="nav-link">Sobre nós</a></li>
                     <li class="nav-item"><a href="login.php" class="nav-link">Login</a></li>

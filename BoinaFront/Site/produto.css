@@ -276,9 +276,11 @@ box-shadow: none;
     gap: 24px;
     margin-top: 20px;
     margin: 60px;
-    margin-bottom: 20%px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
 
   }
+  
   .dish{
     display: flex;
     flex-direction: column;
@@ -292,6 +294,8 @@ box-shadow: none;
     box-shadow: 0px 0px 12px 4px var(--segunda-cor);
     position: relative;
     overflow: hidden;
+    
+
   }
   .dish-heart{
     position: absolute;
@@ -322,7 +326,26 @@ box-shadow: none;
   align-items: center;
   gap: 20px;
   }
+  .sobre{
+    text-align: center;
+    width: 100%;
+    height: auto;
+   background-color: var(--quinta-cor);
 
+}
+.sobre h2{
+    color: var(--sexta-cor);
+    font-size: 3rem;
+    margin: 15px;
+}
+.sobre p{
+    width: 75%;
+    line-height: 25px;
+    margin: 12px;
+    margin-left: 15%;
+    font-size: 1.5rem;
+    
+}
 
   @media screen and (max-width:1250px){
     #home{
