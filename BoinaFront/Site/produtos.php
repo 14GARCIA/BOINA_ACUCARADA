@@ -18,6 +18,7 @@ include_once "Header.php"
         <div id="dishes">
 
           <div class="dish">
+
           <div class="dish-heart">
             <i class="fa-solid fa-heart"></i>
           </div>
@@ -32,7 +33,7 @@ include_once "Header.php"
           Bolo de massa de chocolate, recheios de brigadeiro e mousse de chocolate com castanha-do-Pará, cobertura de trufado de chocolate ao leite e brigadeiro com castanha-do-Pará.
     
     
-          </span>
+        </span>
           <div class="dish-rate">
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -43,10 +44,10 @@ include_once "Header.php"
           </div>
           <div class="dish-price">
             <h4>R$20,00</h4>
-            <a href="">
+            <a href="bolodeCastanha.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
+                     </button></a>
     
           </div>
         </div>
@@ -78,10 +79,10 @@ include_once "Header.php"
           </div>
           <div class="dish-price">
             <h4>R$20,00</h4>
-               <a href="">
+               <a href="deliciadechocolate.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
+                     </button></a>
     
           </div>
         </div>
@@ -112,10 +113,10 @@ include_once "Header.php"
           </div>
           <div class="dish-price">
             <h4>R$20,00</h4>
-            <a href="">
+            <a href="DeliciadeLeite.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
+                     </button></a>
     
           </div>
         </div>
@@ -146,10 +147,10 @@ include_once "Header.php"
             </div>
             <div class="dish-price">
               <h4>R$25,00</h4>
-              <a href="">
+              <a href="trufadochocolate.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
+                     </button></a>
       
             </div>
           </div>
@@ -178,10 +179,10 @@ include_once "Header.php"
             </div>
             <div class="dish-price">
               <h4>R$15,00</h4>
-              <a href="">
+              <a href="redvalet.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
+                     </button></a>
       
             </div>
           </div>
@@ -210,10 +211,10 @@ include_once "Header.php"
             </div>
             <div class="dish-price">
               <h4>R$15,00</h4>
-              <a href="">
+              <a href="DeliciadeLeite.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
+                     </button></a>
       
             </div>
           </div>
@@ -226,7 +227,7 @@ include_once "Header.php"
             <img src="https://cdn.sodiedoces.com.br/wp-content/uploads/2024/01/22132137/152-Brigadeiro-Branco-com-Morango-Zero-Acucar_235X235PX.png" class="dish-image" alt="">
       
             <h3 class="dish-title">
-                Brigadeiro Branco com Morangos Zero Açúca
+                Brigadeiro Branco com Morangos Zero Açúcar
             </h3>
       
             <span class="dish-description">
@@ -242,10 +243,10 @@ include_once "Header.php"
             </div>
             <div class="dish-price">
               <h4>R$15,00</h4>
-              <a href="">
+              <a href="BrigadeiroBrancoMorangosZeroAcucar.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
+                     </button></a>
             </div>
           </div>
 
@@ -273,10 +274,10 @@ include_once "Header.php"
             </div>
             <div class="dish-price">
               <h4>R$15,00</h4>
-              <a href="">
+              <a href="deliciadeleitecomnutela.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
+                     </button></a>
       
             </div>
           </div>
@@ -306,10 +307,10 @@ include_once "Header.php"
             </div>
             <div class="dish-price">
               <h4>R$15,00</h4>
-              <a href="">
+              <a href="morangonutela.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
+                     </button></a>
       
             </div>
           </div>
@@ -339,10 +340,10 @@ include_once "Header.php"
             </div>
             <div class="dish-price">
               <h4>R$15,00</h4>
-              <a href="">
+              <a href="trufadocomnutela.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
+                     </button></a>
             </div>
           </div>
 
@@ -370,10 +371,10 @@ include_once "Header.php"
             </div>
             <div class="dish-price">
               <h4>R$15,00</h4>
-              <a href="">
+              <a href="brigadeirinho.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
+                     </button></a>
       
             </div>
           </div>
@@ -402,10 +403,11 @@ include_once "Header.php"
             </div>
             <div class="dish-price">
               <h4>R$15,00</h4>
-              <a href="">
+              <a href="trufadocomgotas.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
+                     </button></a>
+
       
             </div>
           </div>
@@ -434,11 +436,11 @@ include_once "Header.php"
             </div>
             <div class="dish-price">
               <h4>R$15,00</h4>
-              <a href="">
+              <a href="ganachelima.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
-                     </button>
-      
+                     </button></a>
+
             </div>
           </div>
 
@@ -466,7 +468,7 @@ include_once "Header.php"
             </div>
             <div class="dish-price">
               <h4>R$15,00</h4>
-              <a href=".php">
+              <a href="trufadocereja.php">
                      <button class="btn-default">
                         <i class="fa-solid fa-basket-shopping"></i>
                      </button>
@@ -487,7 +489,7 @@ include_once "Header.php"
             </h3>
       
             <span class="dish-description">
-                
+            Bolo de massa de chocolate, recheios de mousse de chocolate e trufado de chocolate ao leite, cobertura de mousse de chocolate, raspas de chocolate ao leite, calda de chocolate e cerejas decorativas.
             </span>
             <div class="dish-rate">
               <i class="fa-solid fa-star"></i>

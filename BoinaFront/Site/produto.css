@@ -326,6 +326,9 @@ box-shadow: none;
   align-items: center;
   gap: 20px;
   }
+  .dish-price a{
+    text-decoration: none;
+  }
   .sobre{
     text-align: center;
     width: 100%;

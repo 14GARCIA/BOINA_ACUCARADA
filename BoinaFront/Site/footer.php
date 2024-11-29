@@ -60,17 +60,16 @@ main {
     box-sizing: border-box;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
 body {
-    position: relative; /* Necessário para que o footer seja posicionado em relação ao body */
-    min-height: 100vh;
-    padding-bottom: 60px; /* Espaço para evitar sobreposição do conteúdo com o footer */
+    font-family: Arial, sans-serif;
 }
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+    
+}
+
 #footer_content {
     background-color: var(--color-neutral-10);
     display: grid;
